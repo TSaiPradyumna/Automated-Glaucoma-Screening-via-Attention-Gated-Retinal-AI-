@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c.svg)](https://pytorch.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 ##  Project Overview
 This repository contains a full-stack medical computer vision pipeline designed to automate the segmentation of retinal vasculature and the screening of **Glaucoma** using the **OCTA-500 dataset**[cite: 1]. By combining traditional physics (Fourier Analysis) with advanced Deep Learning (Attention U-Net), this project extracts critical clinical biomarkers to identify vascular loss—the primary indicator of early-stage Glaucoma[cite: 1].
@@ -69,8 +69,6 @@ Interactive 3D volumes (generated via Plotly) allow clinicians to rotate and zoo
 *   Implement **Vessel Tortuosity** measurement (detecting abnormal vessel curvature)[cite: 1].
 *   Integrate a PDF generator for automated clinical diagnostic summaries.
 
-##  License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 **Disclaimer:** *This tool is for research purposes only and is not intended for final clinical diagnosis without the supervision of a licensed ophthalmologist.*
